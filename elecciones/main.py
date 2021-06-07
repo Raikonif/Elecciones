@@ -58,7 +58,7 @@ def actualizar():
             time.sleep(1800)
         else:
             if contador == 1:
-                driver.get("https://www.youtube.com/channel/UCVDWNiB0-My0CEPmYt3L82A")
+                driver.get("https://bit.ly/3v17sO3")
                 driver.maximize_window()
                 ToastNotifier().show_toast(f"Suscribete", "Si deseas aprender programación suscribete a mi canal, subiré videos proximamente. El programa retomará automaticamente en 30 segundos", None, 15)
                 time.sleep(30)
